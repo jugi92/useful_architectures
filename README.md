@@ -1,4 +1,6 @@
-# useful_architectures
+# Useful Architectures
 
-
-![Analytics-with-Azure Synapse](analytics-with-azuresynapse.drawio.svg)
+- Synapse Analytics
+  Full view with Layers: 
+  [Analytics-with-Azure Synapse](analytics-with-azuresynapse.drawio.html)
+  ![Analytics-with-Azure Synapse](analytics-with-azuresynapse.drawio.svg)
