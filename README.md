@@ -9,5 +9,18 @@ This is a collection of useful architecture drawings, which solve one or multipl
   [Analytics-with-Azure Synapse](analytics-with-azuresynapse.drawio.html)
 
   ![Analytics-with-Azure Synapse](analytics-with-azuresynapse.drawio.svg)
+- Fabric
+  Full view with Layers
+  [Fabric](Fabric.html)
+
+  Fabric Assets
+  ![Fabric Assets](Fabric.svg)
+
+
+  Fabric Hierarchy  
+  ![Fabric Hierarchy](Fabric_hierarchy.svg)
+
+  Fabric Governance Types  
+  ![Fabric Governance Types](Fabric_governance_type.svg)
 
 If you have an additional one or more insights on the existing ones, feel free to submit a Pull Request.
