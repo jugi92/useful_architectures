@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-07-03T09:28:19.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="OMF9bYdp7LBHTHV2V6J6" version="24.6.4" type="device" pages="7">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5" pages="8">
   <diagram name="Overview" id="m7-ilxQTY4ynh_8W19Fj">
     <mxGraphModel dx="3243" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -943,7 +943,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uyy4tsgL1x9EUBr1TCvo" name="Access Management">
-    <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1018,7 +1018,7 @@
             <mxPoint x="450" y="308" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1jlRGUKRiOp7ZRePBr7t-23" value="Access Layers" parent="0" />
+        <mxCell id="1jlRGUKRiOp7ZRePBr7t-23" value="Data Access Layers" parent="0" />
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-26" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security&quot;&gt;Row Level Security&lt;/a&gt; on Semantic Model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1jlRGUKRiOp7ZRePBr7t-23" vertex="1">
           <mxGeometry x="881" y="410" width="80" height="60" as="geometry" />
         </mxCell>
@@ -1028,8 +1028,12 @@
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-29" value="&lt;div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-warehouse/sql-granular-permissions&quot;&gt;Grants on Database objects&lt;/a&gt; like schemas, views and tables&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-warehouse/row-level-security&quot;&gt;Row Level Security&lt;/a&gt; on SQL Endpoint" style="rounded=0;whiteSpace=wrap;html=1;" parent="1jlRGUKRiOp7ZRePBr7t-23" vertex="1">
           <mxGeometry x="731" y="390" width="80" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="1jlRGUKRiOp7ZRePBr7t-30" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/get-started/roles-workspaces&quot;&gt;Role Based Access Management &lt;/a&gt;on Workspace Level&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1jlRGUKRiOp7ZRePBr7t-23" vertex="1">
+        <mxCell id="O2Icffs6a6jNq0ydVqn7-1" value="Asset Access Layers" parent="0" />
+        <mxCell id="O2Icffs6a6jNq0ydVqn7-2" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/get-started/roles-workspaces&quot;&gt;Role Based Access Management &lt;/a&gt;on Workspace Level&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O2Icffs6a6jNq0ydVqn7-1">
           <mxGeometry x="1000" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O2Icffs6a6jNq0ydVqn7-3" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-engineering/how-to-use-notebook#share-a-notebook&quot;&gt;Notebook&lt;/a&gt;&lt;div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-engineering/how-to-use-notebook#share-a-notebook&quot;&gt;access management&lt;/a&gt;&lt;/div&gt;&lt;div&gt;via link or direct acess:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;share,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;edit or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;run&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O2Icffs6a6jNq0ydVqn7-1">
+          <mxGeometry x="810" y="180" width="130" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1160,6 +1164,106 @@
         </mxCell>
         <mxCell id="oDhu5UW2XSPJX6BI6GCz-1" value="Dashboard" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAzMiAzMyIgaGVpZ2h0PSIzMyIgd2lkdGg9IjMyIj4mI3hhOzxwYXRoIGZpbGw9ImJsYWNrIiBkPSJNMjIuOTYxOSAyMi4yNTkyQzIzLjExNzQgMjIuMzUyNSAyMy4yOTU0IDIyLjQwMTggMjMuNDc2NyAyMi40MDE4QzIzLjY0MDYgMjIuNDAxNSAyMy44MDIgMjIuMzYxIDIzLjk0NjUgMjIuMjgzOEMyNC4wOTExIDIyLjIwNjUgMjQuMjE0NCAyMi4wOTQ5IDI0LjMwNTcgMjEuOTU4OEMyNS4zNTYyIDIwLjM5MDQgMjUuOTQxOCAxOC41NTcgMjUuOTk0OSAxNi42NzAxQzI2LjA0OCAxNC43ODMyIDI1LjU2NjQgMTIuOTE5NyAyNC42MDU3IDExLjI5NDhDMjQuNDcwMyAxMS4wNjY3IDI0LjI0OTkgMTAuOTAxNyAyMy45OTI5IDEwLjgzNjJDMjMuNzM1OCAxMC43NzA2IDIzLjQ2MzMgMTAuODA5OSAyMy4yMzUyIDEwLjk0NTNDMjMuMDA3MSAxMS4wODA3IDIyLjg0MjIgMTEuMzAxMSAyMi43NzY2IDExLjU1ODJDMjIuNzExMSAxMS44MTUyIDIyLjc1MDMgMTIuMDg3NyAyMi44ODU3IDEyLjMxNThDMjMuNjUzOCAxMy42MTUzIDI0LjAzODkgMTUuMTA1NCAyMy45OTY2IDE2LjYxNDNDMjMuOTU0MyAxOC4xMjMyIDIzLjQ4NjQgMTkuNTg5NCAyMi42NDY3IDIwLjg0MzhDMjIuNTQ1NSAyMC45OTQzIDIyLjQ4NzIgMjEuMTY5NSAyMi40Nzc5IDIxLjM1MDZDMjIuNDY4NiAyMS41MzE3IDIyLjUwODcgMjEuNzExOSAyMi41OTQgMjEuODcyQzIyLjY3OTMgMjIuMDMyIDIyLjgwNjQgMjIuMTY1OSAyMi45NjE5IDIyLjI1OTJaTTguNTM3NzIgMjIuNDIyNkM4LjM3MzkyIDIyLjQyMjkgOC4yMTI1NiAyMi4zODI5IDguMDY3ODQgMjIuMzA2MkM3LjkyMzExIDIyLjIyOTQgNy43OTk0NSAyMi4xMTgzIDcuNzA3NzIgMjEuOTgyNkM2LjY5MjkyIDIwLjQ3ODEgNi4xMDY2NSAxOC43MjU5IDYuMDExNzQgMTYuOTEzNkM1LjkxNjgyIDE1LjEwMTQgNi4zMTY4NSAxMy4yOTc1IDcuMTY4OTUgMTEuNjk1MkM4LjAyMTA0IDEwLjA5MyA5LjI5MzA4IDguNzUyNzggMTAuODQ4NyA3LjgxODMyQzEyLjQwNDQgNi44ODM4NSAxNC4xODUgNi4zOTAzMiAxNS45OTk3IDYuMzkwNjJDMTYuNjU0IDYuMzkwNDggMTcuMzA2OCA2LjQ1NDEyIDE3Ljk0ODcgNi41ODA2M0MxOC4wNzc3IDYuNjA1OTEgMTguMjAwNSA2LjY1NjM4IDE4LjMxIDYuNzI5MTVDMTguNDE5NSA2LjgwMTkzIDE4LjUxMzUgNi44OTU1OCAxOC41ODY4IDcuMDA0NzVDMTguNjYgNy4xMTM5MSAxOC43MTExIDcuMjM2NDUgMTguNzM2OSA3LjM2NTM2QzE4Ljc2MjggNy40OTQyNiAxOC43NjI5IDcuNjI2OTkgMTguNzM3NCA3Ljc1NTk2QzE4LjcxMTkgNy44ODQ5MyAxOC42NjEyIDguMDA3NjEgMTguNTg4MyA4LjExNjk3QzE4LjUxNTMgOC4yMjYzMyAxOC40MjE1IDguMzIwMjMgMTguMzEyMiA4LjM5MzI5QzE4LjIwMjkgOC40NjYzNiAxOC4wODAzIDguNTE3MTYgMTcuOTUxMyA4LjU0Mjc4QzE3LjgyMjQgOC41Njg0MSAxNy42ODk2IDguNTY4MzUgMTcuNTYwNyA4LjU0MjYzQzE2LjQwMDYgOC4zMTMyOCAxNS4yMDQgOC4zNDM3NCAxNC4wNTcgOC42MzE4MkMxMi45MSA4LjkxOTkxIDExLjg0MSA5LjQ1ODQ3IDEwLjkyNjkgMTAuMjA4OEMxMC4wMTI4IDEwLjk1OTEgOS4yNzYyMyAxMS45MDI2IDguNzcwMTIgMTIuOTcxNUM4LjI2NCAxNC4wNDAzIDguMDAwOSAxNS4yMDggNy45OTk3MiAxNi4zOTA2QzcuOTk2NjMgMTcuOTg0OCA4LjQ3MjUzIDE5LjU0MzIgOS4zNjU3MiAyMC44NjM2QzkuNDY3MDkgMjEuMDE0IDkuNTI1NjcgMjEuMTg5MSA5LjUzNTE4IDIxLjM3MDJDOS41NDQ2OSAyMS41NTEzIDkuNTA0NzggMjEuNzMxNSA5LjQxOTcyIDIxLjg5MTdDOS4zMzQ2NiAyMi4wNTE4IDkuMjA3NjUgMjIuMTg1OCA5LjA1MjI5IDIyLjI3OTRDOC44OTY5MyAyMi4zNzI5IDguNzE5MDYgMjIuNDIyNCA4LjUzNzcyIDIyLjQyMjZaTTIxLjUxNzUgOC4yNjYyNUMyMS4zMjcxIDguMjYyNzUgMjEuMTQxNCA4LjMyNTUyIDIwLjk5MjIgOC40NDM4MkwxOS45MzYyIDkuMjg1ODJDMTkuMjk4MiA5Ljc5MjgyIDE4LjQ0MjIgMTAuNDc3OCAxNy41NjgyIDExLjE4NThDMTYuNjk0MiAxMS44OTM4IDE1Ljc5ODIgMTIuNjIyOCAxNS4wODMyIDEzLjIyMjhDMTQuNzI2MiAxMy41MjE4IDE0LjQxMDIgMTMuNzkwOCAxNC4xNjMyIDE0LjAwODhDMTMuOTY1NiAxNC4xNzc0IDEzLjc3NzYgMTQuMzU3IDEzLjYwMDIgMTQuNTQ2OEMxMy4xNzU5IDE1LjA0MzQgMTIuOTY2MiAxNS42ODgzIDEzLjAxNzMgMTYuMzM5NUMxMy4wNjg0IDE2Ljk5MDcgMTMuMzc2MSAxNy41OTUgMTMuODcyNyAxOC4wMTkzQzE0LjM2OTQgMTguNDQzNyAxNS4wMTQyIDE4LjY1MzQgMTUuNjY1NCAxOC42MDIyQzE2LjMxNjcgMTguNTUxMSAxNi45MjA5IDE4LjI0MzQgMTcuMzQ1MiAxNy43NDY4QzE3LjUwNTMgMTcuNTQyMyAxNy42NTMyIDE3LjMyODYgMTcuNzg4MiAxNy4xMDY4QzE3Ljk2NDIgMTYuODI4OCAxOC4xODEyIDE2LjQ3NDggMTguNDIwMiAxNi4wNzQ4QzE4Ljg5OTIgMTUuMjc0OCAxOS40ODEyIDE0LjI3NjggMjAuMDQzMiAxMy4zMDE4QzIwLjYwNTIgMTIuMzI2OCAyMS4xNTEyIDExLjM3NDggMjEuNTUxMiAxMC42NjU4TDIyLjAzNTIgOS44MTI4MkwyMi4yMTcyIDkuNDkwODJDMjIuMzEwOSA5LjMyNTA0IDIyLjM0NCA5LjEzMTg2IDIyLjMxMDkgOC45NDQzN0MyMi4yNzc4IDguNzU2ODcgMjIuMTgwNSA4LjU4NjcxIDIyLjAzNTggOC40NjMwMUMyMS44OTEgOC4zMzkzMSAyMS43MDc4IDguMjY5NzUgMjEuNTE3NSA4LjI2NjI1Wk0xNiAyLjM5MDYyQzguMjY4MDEgMi4zOTA2MiAyIDguNjU4NjQgMiAxNi4zOTA2QzIgMjQuMTIyNiA4LjI2ODAxIDMwLjM5MDYgMTYgMzAuMzkwNkMyMy43MzIgMzAuMzkwNiAzMCAyNC4xMjI2IDMwIDE2LjM5MDZDMzAgOC42NTg2NCAyMy43MzIgMi4zOTA2MiAxNiAyLjM5MDYyWk00IDE2LjM5MDZDNCA5Ljc2MzIxIDkuMzcyNTggNC4zOTA2MiAxNiA0LjM5MDYyQzIyLjYyNzQgNC4zOTA2MiAyOCA5Ljc2MzIxIDI4IDE2LjM5MDZDMjggMjMuMDE4IDIyLjYyNzQgMjguMzkwNiAxNiAyOC4zOTA2QzkuMzcyNTggMjguMzkwNiA0IDIzLjAxOCA0IDE2LjM5MDZaIi8+JiN4YTs8L3N2Zz4=" vertex="1" parent="1">
           <mxGeometry x="1014" y="160" width="32" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3j6RheE7Xp3-5YfFZhpX" name="Aligning goals with different speeds">
+    <mxGraphModel dx="1114" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-1" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="457" y="440" as="sourcePoint" />
+            <mxPoint x="417" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-2" value="Policies" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ADtSr_ozY5TLYNIXFwC0-1">
+          <mxGeometry x="0.9238" y="1" relative="1" as="geometry">
+            <mxPoint x="2" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.78;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="ADtSr_ozY5TLYNIXFwC0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="440" as="sourcePoint" />
+            <mxPoint x="580" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-4" value="Policies" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ADtSr_ozY5TLYNIXFwC0-3">
+          <mxGeometry x="0.8802" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-5" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="439" as="sourcePoint" />
+            <mxPoint x="490" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="420" />
+              <mxPoint x="490" y="389" />
+              <mxPoint x="490" y="310" />
+              <mxPoint x="500" y="250" />
+              <mxPoint x="460" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;exitX=0.394;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ADtSr_ozY5TLYNIXFwC0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="439" as="sourcePoint" />
+            <mxPoint x="520" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="439" />
+              <mxPoint x="590" y="410" />
+              <mxPoint x="600" y="390" />
+              <mxPoint x="580" y="389" />
+              <mxPoint x="600" y="360" />
+              <mxPoint x="580" y="340" />
+              <mxPoint x="580" y="310" />
+              <mxPoint x="550" y="310" />
+              <mxPoint x="550" y="300" />
+              <mxPoint x="530" y="280" />
+              <mxPoint x="590" y="230" />
+              <mxPoint x="550" y="220" />
+              <mxPoint x="560" y="200" />
+              <mxPoint x="530" y="180" />
+              <mxPoint x="560" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-7" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Container Ship:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;Existing&amp;nbsp;&lt;div&gt;Data Platform&lt;/div&gt;&lt;div&gt;Power BI &amp;amp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Synapse &amp;amp; Databricks&lt;/span&gt;&lt;/div&gt;&lt;div&gt;→&amp;nbsp;Fabric&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="437" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-8" value="&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;Speedboat:&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#0000ff&quot;&gt;New Fabric&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#0000ff&quot;&gt;Use Case&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="440" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="440" as="sourcePoint" />
+            <mxPoint x="680" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-10" value="Continued&amp;nbsp;&lt;div&gt;Invest&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ADtSr_ozY5TLYNIXFwC0-9">
+          <mxGeometry x="0.3813" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359" y="443" as="sourcePoint" />
+            <mxPoint x="359" y="123" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-12" value="Clear&lt;div&gt;Scope&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ADtSr_ozY5TLYNIXFwC0-11">
+          <mxGeometry x="0.3813" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-13" value="Aligning goals whith different speeds" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADtSr_ozY5TLYNIXFwC0-14" value="Existing Data Platforms need to refine&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;their&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;concepts to include Fabric&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;as &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;new capabilities&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;for integrated data processing, real time intelligence&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and AI workloads.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;At the same time there might be use cases which can&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;already start with Fabric and while they do not align with&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;all policies that are defined in parallel, they still develop&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;into the same direction.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Close alignment between the two is needed to prevent&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;common goal drift and diversion.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="120" width="320" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

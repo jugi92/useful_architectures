@@ -35,6 +35,10 @@ This is a collection of useful architecture drawings, which solve one or multipl
   ![Fabric Data Access Management](Fabric_Data_Access_Management.drawio.svg)
 
 
+#### Aligning goals with different speeds
+  ![Fabric-Aligning goals with different speeds](Fabric_Aligning_goals_with_different_speeds.drawio.svg)
+
+
 #### Fabric with Customer Managed Key / Bring your own Key
 ![Fabric with Customer Managed Key / Bring your own Key](Fabric_BYOK.drawio.svg)
 
