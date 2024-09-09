@@ -1059,6 +1059,9 @@
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-29" value="&lt;div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-warehouse/sql-granular-permissions&quot;&gt;Grants on Database objects&lt;/a&gt; like schemas, views and tables&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-warehouse/row-level-security&quot;&gt;Row Level Security&lt;/a&gt; on SQL Endpoint" style="rounded=0;whiteSpace=wrap;html=1;" parent="1jlRGUKRiOp7ZRePBr7t-23" vertex="1">
           <mxGeometry x="731" y="390" width="80" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="UgS5stz8GiBNxA2BpoH3-3" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports#share-reports-or-dashboards&quot;&gt;Share Report or Dasboard&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1jlRGUKRiOp7ZRePBr7t-23">
+          <mxGeometry x="1000" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="O2Icffs6a6jNq0ydVqn7-1" value="Asset Access Layers" style="locked=1;" parent="0" />
         <mxCell id="O2Icffs6a6jNq0ydVqn7-2" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/get-started/roles-workspaces&quot;&gt;Role Based Access Management &lt;/a&gt;on Workspace Level&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="O2Icffs6a6jNq0ydVqn7-1" vertex="1">
           <mxGeometry x="1000" y="230" width="80" height="80" as="geometry" />
