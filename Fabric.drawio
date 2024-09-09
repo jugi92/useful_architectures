@@ -968,10 +968,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uyy4tsgL1x9EUBr1TCvo" name="Access Management">
-    <mxGraphModel dx="1114" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VXdRdzj0769rUso-oGRK-2" value="Fabric Service" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="36" width="1090" height="744" as="geometry" />
+        </mxCell>
         <mxCell id="rOHEAUU713tGavPj-xXk-1" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="210" y="200" width="820" height="550" as="geometry" />
         </mxCell>
@@ -1043,7 +1046,10 @@
             <mxPoint x="450" y="308" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1jlRGUKRiOp7ZRePBr7t-23" value="Data Access Layers" parent="0" />
+        <mxCell id="JAxGCqVcPYinvZvB4oFq-1" value="On premises&amp;nbsp;&lt;div&gt;Data Gateway&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/On_Premises_Data_Gateways.svg;" vertex="1" parent="1">
+          <mxGeometry x="70" y="267" width="68" height="65.2" as="geometry" />
+        </mxCell>
+        <mxCell id="1jlRGUKRiOp7ZRePBr7t-23" value="Data Access Layers" style="locked=1;" parent="0" />
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-26" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security&quot;&gt;Row Level Security&lt;/a&gt; on Semantic Model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1jlRGUKRiOp7ZRePBr7t-23" vertex="1">
           <mxGeometry x="881" y="410" width="80" height="60" as="geometry" />
         </mxCell>
@@ -1053,12 +1059,15 @@
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-29" value="&lt;div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-warehouse/sql-granular-permissions&quot;&gt;Grants on Database objects&lt;/a&gt; like schemas, views and tables&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-warehouse/row-level-security&quot;&gt;Row Level Security&lt;/a&gt; on SQL Endpoint" style="rounded=0;whiteSpace=wrap;html=1;" parent="1jlRGUKRiOp7ZRePBr7t-23" vertex="1">
           <mxGeometry x="731" y="390" width="80" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="O2Icffs6a6jNq0ydVqn7-1" value="Asset Access Layers" parent="0" />
-        <mxCell id="O2Icffs6a6jNq0ydVqn7-2" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/get-started/roles-workspaces&quot;&gt;Role Based Access Management &lt;/a&gt;on Workspace Level&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O2Icffs6a6jNq0ydVqn7-1">
+        <mxCell id="O2Icffs6a6jNq0ydVqn7-1" value="Asset Access Layers" style="locked=1;" parent="0" />
+        <mxCell id="O2Icffs6a6jNq0ydVqn7-2" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/get-started/roles-workspaces&quot;&gt;Role Based Access Management &lt;/a&gt;on Workspace Level&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="O2Icffs6a6jNq0ydVqn7-1" vertex="1">
           <mxGeometry x="1000" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="O2Icffs6a6jNq0ydVqn7-3" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-engineering/how-to-use-notebook#share-a-notebook&quot;&gt;Notebook&lt;/a&gt;&lt;div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-engineering/how-to-use-notebook#share-a-notebook&quot;&gt;access management&lt;/a&gt;&lt;/div&gt;&lt;div&gt;via link or direct acess:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;share,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;edit or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;run&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O2Icffs6a6jNq0ydVqn7-1">
+        <mxCell id="O2Icffs6a6jNq0ydVqn7-3" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-engineering/how-to-use-notebook#share-a-notebook&quot;&gt;Notebook&lt;/a&gt;&lt;div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/data-engineering/how-to-use-notebook#share-a-notebook&quot;&gt;access management&lt;/a&gt;&lt;/div&gt;&lt;div&gt;via link or direct acess:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;share,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;edit or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;run&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="O2Icffs6a6jNq0ydVqn7-1" vertex="1">
           <mxGeometry x="810" y="180" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JAxGCqVcPYinvZvB4oFq-2" value="Data Gateway &lt;a href=&quot;https://learn.microsoft.com/en-gb/data-integration/gateway/manage-security-roles&quot;&gt;access management&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O2Icffs6a6jNq0ydVqn7-1">
+          <mxGeometry x="40" y="200" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
