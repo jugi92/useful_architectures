@@ -971,7 +971,7 @@
     <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" />
+        <mxCell id="1" style="locked=1;" parent="0" />
         <mxCell id="VXdRdzj0769rUso-oGRK-2" value="Fabric Service" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="20" y="36" width="1090" height="744" as="geometry" />
         </mxCell>
@@ -1068,6 +1068,9 @@
         </mxCell>
         <mxCell id="JAxGCqVcPYinvZvB4oFq-2" value="Data Gateway &lt;a href=&quot;https://learn.microsoft.com/en-gb/data-integration/gateway/manage-security-roles&quot;&gt;access management&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O2Icffs6a6jNq0ydVqn7-1">
           <mxGeometry x="40" y="200" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UgS5stz8GiBNxA2BpoH3-2" value="Tenant Level&amp;nbsp;&lt;a href=&quot;https://learn.microsoft.com/en-gb/data-integration/gateway/manage-security-roles&quot;&gt;access management&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O2Icffs6a6jNq0ydVqn7-1">
+          <mxGeometry x="110" y="40" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
