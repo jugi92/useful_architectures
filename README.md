@@ -42,6 +42,53 @@ This is a collection of useful architecture drawings, which solve one or multipl
 #### Fabric with Customer Managed Key / Bring your own Key
 ![Fabric with Customer Managed Key / Bring your own Key](Fabric_BYOK.drawio.svg)
 
+## Fabric Asset Table
+- Workspace  
+  - Lakehouse  
+    - Folders  
+      - Files
+    - Tables
+  - Warehouse
+
+## Migrate Azure Modern Data Platform to Microsoft Fabric Intelligent Data Platform
+- Synapse -> Fabric [Overall Migration Guidance](https://blog.fabric.microsoft.com/en-us/blog/microsoft-fabric-explained-for-existing-synapse-users/)
+  - Workspace -> One or more Fabric Workspaces (Multiple Dev / Feature Workspace, 1  Integration, 1 Production)
+  - Data Explorer Database -> Fabric Real Time Database
+  - Lakedatabase -> Lakehouse
+  - Linked Services
+    - Azure Blob Storage -> Migrate to OneLake | Shortcut in Lakehouse
+    - Azure Data Lake Storage -> Migrate to OneLake | Shortcut in Lakehouse
+    - Azure Data Explorer -> Migrate to Fabric Real Time Database | Fabric Real Time Database Shortcut (Follower Database) | Use connector in pipeline or Data Flow Gen2
+    - SAP CDC Connector -> Mount Azure Data Factory into Fabric and keep using Mapping Data Flow
+    - Key Vault
+    - Other Linked Services -> direct connection 
+  - Synapse Link for Cosmos DB -> Mirroring via [Fabric Mirroring for CosmosDB](https://learn.microsoft.com/en-us/fabric/database/mirrored-database/azure-cosmos-db)
+  - Pipeline -> Fabric Data Pipeline
+    - File Triggered pipelines -> [Storage Event Trigger via Data Activator](https://learn.microsoft.com/en-us/fabric/data-factory/pipeline-storage-event-triggers)
+  - Mapping DataFlow -> no direct successor, rewrite to [Fabric Dataflow Gen2](https://learn.microsoft.com/en-us/fabric/data-factory/guide-to-dataflows-for-mapping-data-flow-users)  | rewrite to Fabric Notebook
+  - Spark -> Fabric Data Engineering Experience ([Migrating from Azure Synapse Spark to Fabric](https://learn.microsoft.com/en-us/fabric/data-engineering/migrate-synapse-overview))
+    - Notebook -> Fabric Notebook (consider [Repo](https://github.com/microsoft/fabric-migration))
+    - Spark Pool -> Fabric Spark Pool (consider [Repo](https://github.com/microsoft/fabric-migration))
+    - Spark Configuration
+    - Spark Libraries
+    - Job definition
+  - dedicated SQL Pool -> Fabric Warehouse | Fabric Lakehouse (see [Migration: Azure Synapse Analytics dedicated SQL pools to Fabric](https://learn.microsoft.com/en-us/fabric/data-warehouse/migration-synapse-dedicated-sql-pool-warehouse), [DWU Estimation](https://blog.fabric.microsoft.com/en-us/blog/mapping-azure-synapse-dedicated-sql-pools-to-fabric-data-warehouse-compute?ft=Data-warehouse:category))
+  - Serverless SQL Pool -> Fabric Lakehouse SQL Analytics Endpoint
+  - Integration Runtime
+    - Azure Runtime / Azure Auto Resolve Runtime -> plain Fabric Compute Capacity 
+    - Self hosted Integration Runtime -> VNet Data Gateway | On-premises Data Gateway
+  - Git configuration -> Migrate to Fabric Workspace Git configuration (previously 1:1 relation between workspace and repository, now 1:1 relation between workspace and branch)
+  - Azure DevOps Deployment Pipelines -> Azure DevOps Deployment Pipelines +  [Fabric Deployment Pipelines](https://learn.microsoft.com/en-us/fabric/cicd/deployment-pipelines/get-started-with-deployment-pipelines)
+- Power BI -> Fabric 
+  - [P SKU to F SKU](https://powerbi.microsoft.com/en-us/blog/important-update-coming-to-power-bi-premium-licensing/)
+  - Power BI Workspaces -> Keep as PBI Workspaces
+  - [Migrate Dataflow Gen1 to Gen2](https://learn.microsoft.com/en-us/fabric/data-factory/move-dataflow-gen1-to-dataflow-gen2) 
+- Blob Storage -> Migrate to OneLake ([az copy](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf)) | keep and Shortcut in Lakehouse
+- ADLS -> Migrate to OneLake | Shortcut in Lakehouse
+- Azure Data Explorer -> Fabric Real Time Database | Fabric Real Time Database Shortcut (Follower Database)
+- Azure Cosmos DB -> keep as is, run analytical workloads via [Fabric Mirroring for CosmosDB](https://learn.microsoft.com/en-us/fabric/database/mirrored-database/azure-cosmos-db)
+- Azure Functions -> keep as Azure Function, adapt to Fabric
+- Azure Event Hub -> keep as Azure Event Hub, integrate into Eventhouse via Eventstream
 
 ### Synapse Analytics
   Full view with Layers: 

@@ -1030,6 +1030,14 @@
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-14" value="OneLake" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="203" width="230" height="687" as="geometry" />
         </mxCell>
+        <mxCell id="ud7uRwQXEkUb0pNIM7Jv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1jlRGUKRiOp7ZRePBr7t-1" target="ud7uRwQXEkUb0pNIM7Jv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="307" />
+              <mxPoint x="300" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-1" value="Files&lt;br&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Folders&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="350" y="207" width="98" height="200" as="geometry" />
         </mxCell>
@@ -1080,11 +1088,22 @@
         <mxCell id="GrPUzFtQHDKjyJJ2cmDU-3" value="Databases&lt;div&gt;&amp;nbsp;- Tables&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="734" y="720" width="155" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="ud7uRwQXEkUb0pNIM7Jv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GrPUzFtQHDKjyJJ2cmDU-4" target="ud7uRwQXEkUb0pNIM7Jv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="770" />
+              <mxPoint x="300" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GrPUzFtQHDKjyJJ2cmDU-4" value="Files&lt;div&gt;&amp;nbsp; &amp;nbsp; Folder&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Delta%20Files%22%20style%3D%22shape%3Dimage%3BverticalLabelPosition%3Dmiddle%3BlabelBackgroundColor%3Ddefault%3BverticalAlign%3Dmiddle%3Baspect%3Dfixed%3BimageAspect%3D0%3Bimage%3Dhttps%3A%2F%2Fdelta.io%2Fstatic%2Fdelta-lake-logo-a1c0d80d23c17de5f5d7224cb40f15dc.svg%3BclipPath%3Dinset(0%25%2075.3%25%200%25%200%25)%3BlabelPosition%3Dright%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22356%22%20y%3D%22303%22%20width%3D%2227.82%22%20height%3D%2223.75%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="350" y="720" width="98" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GrPUzFtQHDKjyJJ2cmDU-5" value="Delta Files" style="shape=image;verticalLabelPosition=middle;labelBackgroundColor=default;verticalAlign=middle;aspect=fixed;imageAspect=0;image=https://delta.io/static/delta-lake-logo-a1c0d80d23c17de5f5d7224cb40f15dc.svg;clipPath=inset(0% 75.3% 0% 0%);labelPosition=right;align=left;" vertex="1" parent="1">
           <mxGeometry x="356" y="760" width="27.82" height="23.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ud7uRwQXEkUb0pNIM7Jv-2" value="Shortcut" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAzMiAzMyIgaGVpZ2h0PSIzMyIgd2lkdGg9IjMyIj4mI3hhOzxwYXRoIGZpbGw9ImJsYWNrIiBkPSJNMiAxNi42NTYzQzIgMTIuNzkwMyA1LjEzNDAxIDkuNjU2MzEgOSA5LjY1NjMxSDEzQzEzLjU1MjMgOS42NTYzMSAxNCAxMC4xMDQgMTQgMTAuNjU2M0MxNCAxMS4yMDg2IDEzLjU1MjMgMTEuNjU2MyAxMyAxMS42NTYzSDlDNi4yMzg1OCAxMS42NTYzIDQgMTMuODk0OSA0IDE2LjY1NjNDNCAxOS40MTc3IDYuMjM4NTggMjEuNjU2MyA5IDIxLjY1NjNIMTNDMTMuNTUyMyAyMS42NTYzIDE0IDIyLjEwNCAxNCAyMi42NTYzQzE0IDIzLjIwODYgMTMuNTUyMyAyMy42NTYzIDEzIDIzLjY1NjNIOUM1LjEzNDAxIDIzLjY1NjMgMiAyMC41MjIzIDIgMTYuNjU2M1pNMzAgMTYuNjU2M0MzMCAxMi43OTAzIDI2Ljg2NiA5LjY1NjMxIDIzIDkuNjU2MzFIMTlDMTguNDQ3NyA5LjY1NjMxIDE4IDEwLjEwNCAxOCAxMC42NTYzQzE4IDExLjIwODYgMTguNDQ3NyAxMS42NTYzIDE5IDExLjY1NjNIMjNDMjUuNzYxNCAxMS42NTYzIDI4IDEzLjg5NDkgMjggMTYuNjU2M0MyOCAxOS40MTc3IDI1Ljc2MTQgMjEuNjU2MyAyMyAyMS42NTYzSDE5QzE4LjQ0NzcgMjEuNjU2MyAxOCAyMi4xMDQgMTggMjIuNjU2M0MxOCAyMy4yMDg2IDE4LjQ0NzcgMjMuNjU2MyAxOSAyMy42NTYzSDIzQzI2Ljg2NiAyMy42NTYzIDMwIDIwLjUyMjMgMzAgMTYuNjU2M1pNOS41IDE1LjY1NjNDOC45NDc3MiAxNS42NTYzIDguNSAxNi4xMDQgOC41IDE2LjY1NjNDOC41IDE3LjIwODYgOC45NDc3MiAxNy42NTYzIDkuNSAxNy42NTYzSDIyLjVDMjMuMDUyMyAxNy42NTYzIDIzLjUgMTcuMjA4NiAyMy41IDE2LjY1NjNDMjMuNSAxNi4xMDQgMjMuMDUyMyAxNS42NTYzIDIyLjUgMTUuNjU2M0g5LjVaIi8+JiN4YTs8L3N2Zz4=" vertex="1" parent="1">
+          <mxGeometry x="250" y="328.5" width="32" height="33" as="geometry" />
         </mxCell>
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-23" value="Data Access Layers" style="" parent="0" />
         <mxCell id="1jlRGUKRiOp7ZRePBr7t-26" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security&quot;&gt;Row Level Security&lt;/a&gt; on Semantic Model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1jlRGUKRiOp7ZRePBr7t-23" vertex="1">
@@ -1098,6 +1117,9 @@
         </mxCell>
         <mxCell id="UgS5stz8GiBNxA2BpoH3-3" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports#share-reports-or-dashboards&quot;&gt;Share Report or Dasboard&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1jlRGUKRiOp7ZRePBr7t-23">
           <mxGeometry x="1000" y="390" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ud7uRwQXEkUb0pNIM7Jv-6" value="Shortcut&lt;div&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcut-security&quot;&gt;permission model&lt;/a&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1jlRGUKRiOp7ZRePBr7t-23">
+          <mxGeometry x="190" y="384" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O2Icffs6a6jNq0ydVqn7-1" value="Asset Access Layers" style="" parent="0" />
         <mxCell id="O2Icffs6a6jNq0ydVqn7-2" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/fabric/get-started/roles-workspaces&quot;&gt;Role Based Access Management &lt;/a&gt;on Workspace Level&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="O2Icffs6a6jNq0ydVqn7-1" vertex="1">
