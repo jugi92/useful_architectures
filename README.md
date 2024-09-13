@@ -61,7 +61,9 @@ This is a collection of useful architecture drawings, which solve one or multipl
     - Azure Data Explorer -> Migrate to Fabric Real Time Database | Fabric Real Time Database Shortcut (Follower Database) | Use connector in pipeline or Data Flow Gen2
     - SAP CDC Connector -> Mount Azure Data Factory into Fabric and keep using Mapping Data Flow
     - Key Vault
-    - Other Linked Services -> direct connection 
+      - in pipelines & mapping data flows-> credentials are stored in connection via [Cloud Data Sources](https://learn.microsoft.com/en-us/power-bi/connect-data/service-create-share-cloud-data-sources)
+      - in Spark -> use [mssparkutils](https://learn.microsoft.com/en-us/fabric/data-engineering/microsoft-spark-utilities#credentials-utilities)
+    - other
   - Synapse Link for Cosmos DB -> Mirroring via [Fabric Mirroring for CosmosDB](https://learn.microsoft.com/en-us/fabric/database/mirrored-database/azure-cosmos-db)
   - Pipeline -> Fabric Data Pipeline
     - File Triggered pipelines -> [Storage Event Trigger via Data Activator](https://learn.microsoft.com/en-us/fabric/data-factory/pipeline-storage-event-triggers)
