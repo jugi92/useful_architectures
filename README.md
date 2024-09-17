@@ -56,9 +56,9 @@ This is a collection of useful architecture drawings, which solve one or multipl
   - Data Explorer Database -> Fabric Real Time Database
   - Lakedatabase -> Lakehouse
   - Linked Services
-    - Azure Blob Storage -> Migrate to OneLake | Shortcut in Lakehouse
-    - Azure Data Lake Storage -> Migrate to OneLake | Shortcut in Lakehouse
-    - Azure Data Explorer -> Migrate to Fabric Real Time Database | Fabric Real Time Database Shortcut (Follower Database) | Use connector in pipeline or Data Flow Gen2
+    - Azure Blob Storage -> Migrate to OneLake OR Shortcut in Lakehouse
+    - Azure Data Lake Storage -> Migrate to OneLake OR Shortcut in Lakehouse
+    - Azure Data Explorer -> Migrate to Fabric Real Time Database OR Fabric Real Time Database Shortcut (Follower Database) OR Use connector in pipeline or Data Flow Gen2
     - SAP CDC Connector -> Mount Azure Data Factory into Fabric and keep using Mapping Data Flow
     - Key Vault
       - in pipelines & mapping data flows-> credentials are stored in connection via [Cloud Data Sources](https://learn.microsoft.com/en-us/power-bi/connect-data/service-create-share-cloud-data-sources)
@@ -67,27 +67,27 @@ This is a collection of useful architecture drawings, which solve one or multipl
   - Synapse Link for Cosmos DB -> Mirroring via [Fabric Mirroring for CosmosDB](https://learn.microsoft.com/en-us/fabric/database/mirrored-database/azure-cosmos-db)
   - Pipeline -> Fabric Data Pipeline
     - File Triggered pipelines -> [Storage Event Trigger via Data Activator](https://learn.microsoft.com/en-us/fabric/data-factory/pipeline-storage-event-triggers)
-  - Mapping DataFlow -> no direct successor, rewrite to [Fabric Dataflow Gen2](https://learn.microsoft.com/en-us/fabric/data-factory/guide-to-dataflows-for-mapping-data-flow-users)  | rewrite to Fabric Notebook
+  - Mapping DataFlow -> no direct successor, rewrite to [Fabric Dataflow Gen2](https://learn.microsoft.com/en-us/fabric/data-factory/guide-to-dataflows-for-mapping-data-flow-users) OR rewrite to Fabric Notebook
   - Spark -> Fabric Data Engineering Experience ([Migrating from Azure Synapse Spark to Fabric](https://learn.microsoft.com/en-us/fabric/data-engineering/migrate-synapse-overview))
     - Notebook -> Fabric Notebook (consider [Repo](https://github.com/microsoft/fabric-migration))
     - Spark Pool -> Fabric Spark Pool (consider [Repo](https://github.com/microsoft/fabric-migration))
     - Spark Configuration
     - Spark Libraries
     - Job definition
-  - dedicated SQL Pool -> Fabric Warehouse | Fabric Lakehouse (see [Migration: Azure Synapse Analytics dedicated SQL pools to Fabric](https://learn.microsoft.com/en-us/fabric/data-warehouse/migration-synapse-dedicated-sql-pool-warehouse), [DWU Estimation](https://blog.fabric.microsoft.com/en-us/blog/mapping-azure-synapse-dedicated-sql-pools-to-fabric-data-warehouse-compute?ft=Data-warehouse:category))
+  - dedicated SQL Pool -> Fabric Warehouse OR Fabric Lakehouse (see [Migration: Azure Synapse Analytics dedicated SQL pools to Fabric](https://learn.microsoft.com/en-us/fabric/data-warehouse/migration-synapse-dedicated-sql-pool-warehouse), [DWU Estimation](https://blog.fabric.microsoft.com/en-us/blog/mapping-azure-synapse-dedicated-sql-pools-to-fabric-data-warehouse-compute?ft=Data-warehouse:category))
   - Serverless SQL Pool -> Fabric Lakehouse SQL Analytics Endpoint
   - Integration Runtime
     - Azure Runtime / Azure Auto Resolve Runtime -> plain Fabric Compute Capacity 
-    - Self hosted Integration Runtime -> VNet Data Gateway | On-premises Data Gateway
+    - Self hosted Integration Runtime -> VNet Data Gateway OR On-premises Data Gateway
   - Git configuration -> Migrate to Fabric Workspace Git configuration (previously 1:1 relation between workspace and repository, now 1:1 relation between workspace and branch)
-  - Azure DevOps Deployment Pipelines -> Azure DevOps Deployment Pipelines +  [Fabric Deployment Pipelines](https://learn.microsoft.com/en-us/fabric/cicd/deployment-pipelines/get-started-with-deployment-pipelines)
+  - Azure DevOps Deployment Pipelines -> Azure DevOps Deployment Pipelines + [Fabric Deployment Pipelines](https://learn.microsoft.com/en-us/fabric/cicd/deployment-pipelines/get-started-with-deployment-pipelines)
 - Power BI -> Fabric 
   - [P SKU to F SKU](https://powerbi.microsoft.com/en-us/blog/important-update-coming-to-power-bi-premium-licensing/)
   - Power BI Workspaces -> Keep as PBI Workspaces
   - [Migrate Dataflow Gen1 to Gen2](https://learn.microsoft.com/en-us/fabric/data-factory/move-dataflow-gen1-to-dataflow-gen2) 
-- Blob Storage -> Migrate to OneLake ([az copy](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf)) | keep and Shortcut in Lakehouse
-- ADLS -> Migrate to OneLake | Shortcut in Lakehouse
-- Azure Data Explorer -> Fabric Real Time Database | Fabric Real Time Database Shortcut (Follower Database)
+- Blob Storage -> Migrate to OneLake ([az copy](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf)) OR keep and Shortcut in Lakehouse
+- ADLS -> Migrate to OneLake OR Shortcut in Lakehouse
+- Azure Data Explorer -> Fabric Real Time Database OR Fabric Real Time Database Shortcut (Follower Database)
 - Azure Cosmos DB -> keep as is, run analytical workloads via [Fabric Mirroring for CosmosDB](https://learn.microsoft.com/en-us/fabric/database/mirrored-database/azure-cosmos-db)
 - Azure Functions -> keep as Azure Function, adapt to Fabric
 - Azure Event Hub -> keep as Azure Event Hub, integrate into Eventhouse via Eventstream
