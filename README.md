@@ -3,6 +3,11 @@
 If you see this on github.com, please visit https://jugi92.github.io/useful_architectures/ for better visibility of the graphs.
 
 This is a collection of useful architecture drawings, which solve one or multiple potential usecases, including comments or alternatives.
+## AI
+
+### Azure AI Landscape
+  Full view with Layers
+  [Azure AI Landscape](Azure-AI-Landscape.drawio.html)
 
 ## Analytics
 
