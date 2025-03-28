@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="lziz9iMjFPuwBMuuLa-q">
-    <mxGraphModel dx="1434" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="locked=1;" parent="0" />
@@ -138,13 +138,13 @@
           <mxGeometry x="10" y="-823.19" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-43" value="&lt;div&gt;Read from&lt;/div&gt;&lt;div&gt;&lt;b&gt;Storage Account&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ADLSv2 &amp;amp; Blob&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Fabric OneLake&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-417.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-260" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-44" value="&lt;div&gt;Read from&lt;/div&gt;&lt;div&gt;&lt;b&gt;Key Vault&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1570" y="-337.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-45" value="&lt;div&gt;Log into&lt;/div&gt;&lt;div&gt;&lt;b&gt;Application Insights&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-257.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-448" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-48" value="&lt;div&gt;Deploy to&lt;/div&gt;&lt;b&gt;App Service&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1570" y="-527.19" width="150" height="70" as="geometry" />
@@ -155,9 +155,23 @@
         <mxCell id="9MGzmyk-a4-prdXKLH5L-50" value="&lt;div&gt;Read from&lt;/div&gt;&lt;div&gt;&lt;b&gt;MongoDB Atlas - Vector Search&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1570" y="-100.19" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-1" value="AI/ML Capabilities" style="locked=1;" parent="0" />
+        <mxCell id="-a6cYmKUcZdv-mxSFMyN-5" value="&lt;div&gt;&lt;b&gt;AI Agent Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;AI Agent acts as a &quot;smart&quot; microservice that can be used to answer questions (RAG), perform actions, or completely automate workflows&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-610" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-1" value="AI/ML Capabilities" style="" parent="0" />
         <mxCell id="9MGzmyk-a4-prdXKLH5L-24" value="&lt;div&gt;Capability:GPU compute&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="820" y="-588.19" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-a6cYmKUcZdv-mxSFMyN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9MGzmyk-a4-prdXKLH5L-1" source="9MGzmyk-a4-prdXKLH5L-25" target="9MGzmyk-a4-prdXKLH5L-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="-220.00000000000023" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="-468" />
+              <mxPoint x="980" y="-370" />
+              <mxPoint x="1540" y="-370" />
+              <mxPoint x="1540" y="-413" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-25" value="&lt;div&gt;Capability:&lt;/div&gt;Tracing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="820" y="-488.19" width="120" height="40" as="geometry" />
@@ -189,6 +203,17 @@
         <mxCell id="9MGzmyk-a4-prdXKLH5L-34" value="&lt;div&gt;Capability:&lt;/div&gt;Model Catalog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="820" y="-667.19" width="120" height="34" as="geometry" />
         </mxCell>
+        <mxCell id="-a6cYmKUcZdv-mxSFMyN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="9MGzmyk-a4-prdXKLH5L-1" source="9MGzmyk-a4-prdXKLH5L-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="-489.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="-513" />
+              <mxPoint x="1000" y="-390" />
+              <mxPoint x="1520" y="-390" />
+              <mxPoint x="1520" y="-490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-35" value="&lt;div&gt;Capability:&lt;/div&gt;Prompt Flow Deployments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="820" y="-538.19" width="120" height="50" as="geometry" />
         </mxCell>
@@ -196,19 +221,19 @@
           <mxGeometry x="820" y="-448.19" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-37" value="&lt;div&gt;Capability:&lt;/div&gt;Agents Threads" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="610" y="-607.19" width="120" height="40" as="geometry" />
+          <mxGeometry x="580" y="-470.00000000000006" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-38" value="&lt;div&gt;Capability:&lt;/div&gt;Managed Finetuning&lt;div&gt;- GenAI Models&lt;/div&gt;&lt;div&gt;- AI Service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="610" y="-493.19" width="120" height="69" as="geometry" />
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-38" value="&lt;div&gt;Capability:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Finetuning&lt;/span&gt;&lt;/div&gt;&lt;div&gt;of GenAI Models or&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;AI Services&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+          <mxGeometry x="280" y="-457.5" width="170" height="35.81" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-39" value="&lt;div&gt;Capability:&lt;/div&gt;Finetuning via Code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="1020" y="-566.69" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-40" value="&lt;div&gt;Capability:Evaluation of GenAI solutions&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="280" y="-483.19" width="120" height="51.5" as="geometry" />
+          <mxGeometry x="280" y="-536.69" width="120" height="51.5" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-41" value="&lt;div&gt;Capability:Content Safety&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="150" y="-483.19" width="120" height="50" as="geometry" />
+          <mxGeometry x="150" y="-536.69" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-42" value="&lt;div&gt;Capability:&lt;/div&gt;Playgrounds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="150" y="-603.19" width="120" height="40" as="geometry" />
@@ -217,10 +242,10 @@
           <mxGeometry x="820" y="-633.19" width="120" height="44" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-54" value="&lt;div&gt;Capability:&lt;/div&gt;Model via Serverless API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="480" y="-493.19" width="120" height="44" as="geometry" />
+          <mxGeometry x="150" y="-457.5" width="120" height="44" as="geometry" />
         </mxCell>
         <mxCell id="-a6cYmKUcZdv-mxSFMyN-1" value="&lt;div&gt;Capability: Agent Code interpreter&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
-          <mxGeometry x="470" y="-607.19" width="120" height="53" as="geometry" />
+          <mxGeometry x="580" y="-531.69" width="120" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
