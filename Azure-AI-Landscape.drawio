@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2" pages="3">
   <diagram name="Service &amp; Capability Map" id="lziz9iMjFPuwBMuuLa-q">
-    <mxGraphModel dx="1880" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2298" dy="2161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
@@ -175,28 +175,28 @@
         <mxCell id="9MGzmyk-a4-prdXKLH5L-25" value="&lt;div&gt;Capability:&lt;/div&gt;Tracing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="820" y="-498.19" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-26" value="&lt;div&gt;Capability: Feature Store&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-26" value="&lt;div&gt;Feature Store&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="1160" y="-676.69" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-27" value="&lt;div&gt;Capability: Environments for containers, packages and libraries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1160" y="-626.69" width="120" height="70" as="geometry" />
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-27" value="&lt;div&gt;Environments for containers, packages and libraries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+          <mxGeometry x="1160" y="-626.69" width="120" height="56.69" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-28" value="&lt;div&gt;Capability: Registry for data assets&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1020" y="-626.69" width="120" height="40" as="geometry" />
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-28" value="&lt;div&gt;Registry for data assets&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+          <mxGeometry x="1290" y="-475.1" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-29" value="&lt;div&gt;Capability: Notebooks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1160" y="-541.69" width="120" height="40" as="geometry" />
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-29" value="&lt;div&gt;Notebooks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+          <mxGeometry x="1160" y="-565" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-30" value="&lt;div&gt;Capability: AutoML&amp;nbsp;&lt;/div&gt;&lt;div&gt;(automated model selection)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1290" y="-510" width="120" height="70" as="geometry" />
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-30" value="&lt;div&gt;AutoML&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(automated model selection)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+          <mxGeometry x="1290" y="-570" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-31" value="&lt;div&gt;Capability: AML Designer (workflow based ML)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1290" y="-591.69" width="120" height="70" as="geometry" />
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-31" value="&lt;div&gt;AML Designer (workflow based ML)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+          <mxGeometry x="1290" y="-618.3800000000001" width="120" height="41.69" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-32" value="&lt;div&gt;Capability: Data Labeling (Image, Text, Audio)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1290" y="-676.69" width="120" height="70" as="geometry" />
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-32" value="&lt;div&gt;Data Labeling (Image, Text, Audio)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+          <mxGeometry x="1290" y="-676.69" width="120" height="46.69" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-33" value="&lt;div&gt;Capability: Registry for models&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-33" value="&lt;div&gt;Registry for models&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="1020" y="-676.69" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-34" value="&lt;div&gt;Capability:&lt;/div&gt;Model Catalog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
@@ -219,34 +219,34 @@
         <mxCell id="9MGzmyk-a4-prdXKLH5L-36" value="&lt;div&gt;Capability: Connections&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="820" y="-458.19" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-37" value="&lt;div&gt;Capability:&lt;/div&gt;Agents Threads" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-37" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Agents Threads&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="520" y="-550" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-38" value="&lt;div&gt;Capability:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Finetuning&lt;/span&gt;&lt;/div&gt;&lt;div&gt;of GenAI Models or&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;AI Services&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-38" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Finetuning&lt;/span&gt;&lt;/div&gt;&lt;div&gt;of GenAI Models or&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;AI Services&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="340" y="-490" width="120" height="58.31" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-39" value="&lt;div&gt;Capability:&lt;/div&gt;Finetuning via Code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1020" y="-576.69" width="120" height="40" as="geometry" />
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-39" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Model Training from Scratch&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+          <mxGeometry x="1020" y="-571.69" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-40" value="&lt;div&gt;Capability:Evaluation of GenAI solutions&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-40" value="&lt;div&gt;Evaluation of GenAI solutions&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="150" y="-486.6" width="120" height="51.5" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-41" value="&lt;div&gt;Capability:Content Safety&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-41" value="&lt;div&gt;Content Safety&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="150" y="-546.69" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-42" value="&lt;div&gt;Capability:&lt;/div&gt;Playgrounds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-42" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Playgrounds&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="150" y="-613.19" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-53" value="&lt;div&gt;Capability:&lt;/div&gt;Model on managed compute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="820" y="-643.19" width="120" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-54" value="&lt;div&gt;Capability:&lt;/div&gt;Model via Serverless API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-54" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Model via Serverless API&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="340" y="-548.19" width="120" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="-a6cYmKUcZdv-mxSFMyN-1" value="&lt;div&gt;Capability: Agent Code interpreter&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
+        <mxCell id="-a6cYmKUcZdv-mxSFMyN-1" value="&lt;div&gt;Agent Code interpreter&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
           <mxGeometry x="650" y="-494.5" width="120" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="USfB7kwW75dsL95fJ-fc-4" value="&lt;div&gt;Capability: Red Teaming&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+        <mxCell id="USfB7kwW75dsL95fJ-fc-4" value="&lt;div&gt;Red Teaming&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
           <mxGeometry x="650" y="-551.19" width="120" height="53" as="geometry" />
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://learn.microsoft.com/en-gb/python/api/overview/azure/ai-ml-readme?view=azure-python&quot;&gt;Azure ML SDK v2&lt;/a&gt;" link="&lt;a href=&quot;https://learn.microsoft.com/en-gb/python/api/overview/azure/ai-ml-readme?view=azure-python&quot;&gt;Azure ML Package client library for Python | Microsoft Learn&lt;/a&gt;" id="UWtybroY7ziTjrSqkBUm-1">
@@ -254,6 +254,24 @@
             <mxGeometry x="1120" y="-810" width="110" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="UWtybroY7ziTjrSqkBUm-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Finetuning via Code&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+          <mxGeometry x="1020" y="-618.3800000000001" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UWtybroY7ziTjrSqkBUm-3" value="&lt;div&gt;Orchestration via&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Components, Pipelines, Jobs&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%26gt%3BCapability%3A%20Notebooks%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23ffe6cc%3BstrokeColor%3D%23d79b00%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221160%22%20y%3D%22-541.69%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+          <mxGeometry x="1160" y="-520" width="120" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UWtybroY7ziTjrSqkBUm-4" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Compute:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;instances, cluster, serverless spark, spark, arc enabled compute&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+          <mxGeometry x="1020" y="-523.19" width="120" height="71.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UWtybroY7ziTjrSqkBUm-5" value="&lt;div&gt;Yellow Box = Capability&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+          <mxGeometry x="1600" y="-818.34" width="120" height="46.69" as="geometry" />
+        </mxCell>
+        <mxCell id="UWtybroY7ziTjrSqkBUm-6" value="Legend:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+          <mxGeometry x="1530" y="-818.34" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWtybroY7ziTjrSqkBUm-7" value="Data and Model Drift detection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+          <mxGeometry x="1290" y="-513" width="120" height="31.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
