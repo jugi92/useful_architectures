@@ -1,257 +1,264 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1" pages="2">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2" pages="3">
   <diagram name="Service &amp; Capability Map" id="lziz9iMjFPuwBMuuLa-q">
-    <mxGraphModel dx="2049" dy="2021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-4" value="Azure AI Services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-330.19" width="1360" height="337" as="geometry" />
+          <mxGeometry x="40" y="-340.19" width="1360" height="337" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-8" value="Type: microsoft.cognitiveservices/accounts" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="290" y="-300.19" width="1090" height="287" as="geometry" />
+          <mxGeometry x="290" y="-310.19" width="1090" height="287" as="geometry" />
         </mxCell>
         <UserObject label="&lt;a href=&quot;https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/architecture&quot;&gt;https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/architecture&lt;/a&gt;" link="https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/architecture" id="OqpMlS3Tm0iueS_o9EqH-2">
           <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="40" y="6.809999999999945" width="420" height="40" as="geometry" />
+            <mxGeometry x="1420" y="-40.190000000000055" width="420" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-3" value="&lt;div&gt;&lt;b&gt;Azure OpenAI account&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Perform a wide variety of natural language tasks.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="310" y="-260.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="310" y="-270.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-9" value="&lt;div&gt;&lt;b&gt;Content moderator&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Detect potentially offensive or unwanted content.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="490" y="-260.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="490" y="-270.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-7" value="&lt;div&gt;&lt;b&gt;Computer vision&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Analyze content in images and videos.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="-260.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1030" y="-270.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-15" value="&lt;div&gt;&lt;b&gt;Language Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Build apps with industry-leading natural language understanding capabilities.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="670" y="-260.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="670" y="-270.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-16" value="&lt;div&gt;&lt;b&gt;Custom vision&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Customize image recognition to fit your business.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="-180.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1030" y="-190.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-17" value="&lt;div&gt;&lt;b&gt;Face API&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Detect and identify people and emotions in images.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="-100.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1030" y="-110.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-18" value="&lt;div&gt;&lt;b&gt;Speech service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Speech to text, text to speech, translation and speaker recognition.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="850" y="-260.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="850" y="-270.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-19" value="&lt;div&gt;&lt;b&gt;Translator&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Translate more than 100 languages and dialects.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="670" y="-180.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="670" y="-190.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-20" value="&lt;div&gt;&lt;b&gt;Document intelligence&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Turn documents into usable data at a fraction of the time and cost.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="490" y="-180.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="490" y="-190.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-21" value="&lt;div&gt;&lt;b&gt;Content safety&lt;/b&gt;&lt;/div&gt;&lt;div&gt;An AI service that detects unwanted contents.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="490" y="-100.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="490" y="-110.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-23" value="&lt;div&gt;&lt;b&gt;Anomaly detector&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Identify potential problems early on.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-260.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1210" y="-270.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-24" value="&lt;div&gt;&lt;b&gt;Personalizer&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Create rich, personalized experiences for each user.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-100.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1210" y="-110.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-25" value="&lt;div&gt;&lt;b&gt;Immersive reader&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Help users read and comprehend text.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-180.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1210" y="-190.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-26" value="Type: microsoft.botservice/botservices" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="60" y="-190.19" width="220" height="100" as="geometry" />
+          <mxGeometry x="60" y="-200.19" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-22" value="&lt;div&gt;&lt;b&gt;Bot services&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Create bots and connect them across channels.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="95" y="-170.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="95" y="-180.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-27" value="Type: microsoft.search/searchservices" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="60" y="-300.19" width="220" height="100" as="geometry" />
+          <mxGeometry x="60" y="-310.19" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-6" value="&lt;div&gt;&lt;b&gt;AI Search&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Bring AI-powered cloud search to your mobile and web apps.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="95" y="-280.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="95" y="-290.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-28" value="Type:&amp;nbsp;microsoft.machinelearningservices/workspaces" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-769.19" width="1440" height="386" as="geometry" />
+          <mxGeometry x="40" y="-779.19" width="1440" height="386" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-32" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;size=0.5;" parent="1" vertex="1">
-          <mxGeometry x="700.69" y="-1020" width="39.13" height="1340.5" as="geometry" />
+          <mxGeometry x="700.69" y="-1030" width="39.13" height="1340.5" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-33" value="Product Azure AI Foundry" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="90" y="-739.19" width="790" height="350" as="geometry" />
+          <mxGeometry x="90" y="-749.19" width="790" height="350" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-29" value="&lt;div&gt;&lt;b&gt;AI Foundry Hub&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Collaboration environment for a team to share project work,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;model endpoints, compute, (data) connections, security&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;settings, govern usage.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="110" y="-719.19" width="750" height="320" as="geometry" />
+          <mxGeometry x="110" y="-729.19" width="750" height="320" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-31" value="&lt;div&gt;&lt;b&gt;Default&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Classic Azure Machine Learning workspace&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="890" y="-719.19" width="570" height="320" as="geometry" />
+          <mxGeometry x="890" y="-729.19" width="570" height="320" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-35" value="&lt;div&gt;&lt;b&gt;AI Foundry Project&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Groups components for model customization. Orchestrates&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and provides tools for customization. Isolates data and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;access.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="150" y="-679.19" width="620" height="250" as="geometry" />
+          <mxGeometry x="150" y="-689.19" width="660" height="250" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-34" value="&lt;div&gt;&lt;b&gt;AI Foundry Project&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Groups components for model customization. Orchestrates&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and provides tools for customization. Isolates data and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;access.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="140" y="-669.19" width="620" height="250" as="geometry" />
+          <mxGeometry x="140" y="-679.19" width="660" height="250" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-30" value="&lt;div&gt;&lt;b&gt;AI Foundry Project&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Groups components for model customization. Orchestrates&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and provides tools for customization. Isolates data and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;access.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="130" y="-659.19" width="620" height="250" as="geometry" />
+          <mxGeometry x="130" y="-669.19" width="660" height="250" as="geometry" />
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OqpMlS3Tm0iueS_o9EqH-32" target="OqpMlS3Tm0iueS_o9EqH-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="-365.19" />
+              <mxPoint x="460" y="-375" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OqpMlS3Tm0iueS_o9EqH-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="-365.19" />
-              <mxPoint x="410" y="-392.19" />
+              <mxPoint x="410" y="-375.19" />
+              <mxPoint x="410" y="-402.19" />
             </Array>
-            <mxPoint x="410" y="-392.19" as="targetPoint" />
+            <mxPoint x="410" y="-402.19" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OqpMlS3Tm0iueS_o9EqH-39" value="connection managed&amp;nbsp;either in hub or project" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OqpMlS3Tm0iueS_o9EqH-37" vertex="1" connectable="0">
           <mxGeometry x="0.0492" y="-1" relative="1" as="geometry">
-            <mxPoint x="7" y="-7" as="offset" />
+            <mxPoint x="30" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="9MGzmyk-a4-prdXKLH5L-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="484" y="-733.19" as="targetPoint" />
+            <mxPoint x="800" y="-730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-2" value="&lt;b&gt;ai.azure.com&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="455" y="-823.19" width="60" height="30" as="geometry" />
+          <mxGeometry x="790" y="-820" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9MGzmyk-a4-prdXKLH5L-6" target="OqpMlS3Tm0iueS_o9EqH-31" edge="1">
+        <mxCell id="9MGzmyk-a4-prdXKLH5L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9MGzmyk-a4-prdXKLH5L-6" target="OqpMlS3Tm0iueS_o9EqH-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-6" value="&lt;b&gt;ml.azure.com&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="-823.19" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="9MGzmyk-a4-prdXKLH5L-8" target="OqpMlS3Tm0iueS_o9EqH-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="20" y="-743.19" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="25" y="-363.19" />
-              <mxPoint x="385" y="-363.19" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9MGzmyk-a4-prdXKLH5L-8" value="&lt;b&gt;oai.azure.com&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="-823.19" width="60" height="30" as="geometry" />
+          <mxGeometry x="880" y="-820" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-43" value="&lt;div&gt;Read from&lt;/div&gt;&lt;div&gt;&lt;b&gt;Storage Account&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ADLSv2 &amp;amp; Blob&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Fabric OneLake&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-260" width="150" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-270" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-44" value="&lt;div&gt;Read from&lt;/div&gt;&lt;div&gt;&lt;b&gt;Key Vault&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-337.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-347.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-45" value="&lt;div&gt;Log into&lt;/div&gt;&lt;div&gt;&lt;b&gt;Application Insights&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-448" width="150" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-455" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-48" value="&lt;div&gt;Deploy to&lt;/div&gt;&lt;b&gt;App Service&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-527.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-537.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-49" value="&lt;div&gt;Retrieve from&lt;/div&gt;&lt;div&gt;&lt;b&gt;Grounding with Bing Search&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-180.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-190.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-50" value="&lt;div&gt;Read from&lt;/div&gt;&lt;div&gt;&lt;b&gt;MongoDB Atlas - Vector Search&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="-100.19" width="150" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-110.19" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-a6cYmKUcZdv-mxSFMyN-5" value="&lt;div&gt;&lt;b&gt;AI Agent Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;AI Agent acts as a &quot;smart&quot; microservice that can be used to answer questions (RAG), perform actions, or completely automate workflows&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="500" y="-610" width="240" height="190" as="geometry" />
+          <mxGeometry x="510" y="-620" width="270" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="USfB7kwW75dsL95fJ-fc-1" value="&lt;a href=&quot;https://learn.microsoft.com/en-us/python/api/overview/azure/ai-evaluation-readme?view=azure-python-preview&quot;&gt;Azure AI Evaluation SDK&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-807.19" width="160" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://learn.microsoft.com/en-us/python/api/overview/azure/ai-inference-readme?view=azure-python-preview&quot;&gt;Azure AI Inference SDK&lt;/a&gt;" link="&lt;a href=&quot;https://learn.microsoft.com/en-us/python/api/overview/azure/ai-inference-readme?view=azure-python-preview&quot;&gt;Azure AI Inference client library for Python | Microsoft Learn&lt;/a&gt;" id="USfB7kwW75dsL95fJ-fc-2">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="337" y="-807.19" width="130" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;a href=&quot;https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme?view=azure-python-preview&quot;&gt;Azure AI Projects SDK&lt;/a&gt;" link="&lt;a href=&quot;https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme?view=azure-python-preview&quot;&gt;Azure AI Projects client library for Python | Microsoft Learn&lt;/a&gt;" id="USfB7kwW75dsL95fJ-fc-3">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="337" y="-827" width="130" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-1" value="AI/ML Capabilities" style="" parent="0" />
         <mxCell id="9MGzmyk-a4-prdXKLH5L-24" value="&lt;div&gt;Capability:GPU compute&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="820" y="-588.19" width="120" height="50" as="geometry" />
+          <mxGeometry x="820" y="-598.19" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-a6cYmKUcZdv-mxSFMyN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9MGzmyk-a4-prdXKLH5L-1" source="9MGzmyk-a4-prdXKLH5L-25" target="9MGzmyk-a4-prdXKLH5L-45" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1570" y="-220.00000000000023" as="targetPoint" />
+            <mxPoint x="1570" y="-230.00000000000023" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="980" y="-468" />
-              <mxPoint x="980" y="-370" />
-              <mxPoint x="1540" y="-370" />
-              <mxPoint x="1540" y="-413" />
+              <mxPoint x="980" y="-478" />
+              <mxPoint x="980" y="-420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-25" value="&lt;div&gt;Capability:&lt;/div&gt;Tracing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="820" y="-488.19" width="120" height="40" as="geometry" />
+          <mxGeometry x="820" y="-498.19" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-26" value="&lt;div&gt;Capability: Feature Store&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1160" y="-666.69" width="120" height="40" as="geometry" />
+          <mxGeometry x="1160" y="-676.69" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-27" value="&lt;div&gt;Capability: Environments for containers, packages and libraries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1160" y="-616.69" width="120" height="70" as="geometry" />
+          <mxGeometry x="1160" y="-626.69" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-28" value="&lt;div&gt;Capability: Registry for data assets&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1020" y="-616.69" width="120" height="40" as="geometry" />
+          <mxGeometry x="1020" y="-626.69" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-29" value="&lt;div&gt;Capability: Notebooks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1160" y="-531.69" width="120" height="40" as="geometry" />
+          <mxGeometry x="1160" y="-541.69" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-30" value="&lt;div&gt;Capability: AutoML&amp;nbsp;&lt;/div&gt;&lt;div&gt;(automated model selection)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1290" y="-491.69" width="120" height="70" as="geometry" />
+          <mxGeometry x="1290" y="-510" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-31" value="&lt;div&gt;Capability: AML Designer (workflow based ML)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1290" y="-581.69" width="120" height="70" as="geometry" />
+          <mxGeometry x="1290" y="-591.69" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-32" value="&lt;div&gt;Capability: Data Labeling (Image, Text, Audio)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1290" y="-666.69" width="120" height="70" as="geometry" />
+          <mxGeometry x="1290" y="-676.69" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-33" value="&lt;div&gt;Capability: Registry for models&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1020" y="-666.69" width="120" height="40" as="geometry" />
+          <mxGeometry x="1020" y="-676.69" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-34" value="&lt;div&gt;Capability:&lt;/div&gt;Model Catalog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="820" y="-667.19" width="120" height="34" as="geometry" />
+          <mxGeometry x="820" y="-677.19" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="-a6cYmKUcZdv-mxSFMyN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="9MGzmyk-a4-prdXKLH5L-1" source="9MGzmyk-a4-prdXKLH5L-35" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1570" y="-489.9999999999998" as="targetPoint" />
+            <mxPoint x="1570" y="-499.9999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1000" y="-513" />
-              <mxPoint x="1000" y="-390" />
-              <mxPoint x="1520" y="-390" />
-              <mxPoint x="1520" y="-490" />
+              <mxPoint x="1000" y="-523" />
+              <mxPoint x="1000" y="-430" />
+              <mxPoint x="1520" y="-430" />
+              <mxPoint x="1520" y="-500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-35" value="&lt;div&gt;Capability:&lt;/div&gt;Prompt Flow Deployments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="820" y="-538.19" width="120" height="50" as="geometry" />
+          <mxGeometry x="820" y="-548.19" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-36" value="&lt;div&gt;Capability: Connections&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="820" y="-448.19" width="120" height="40" as="geometry" />
+          <mxGeometry x="820" y="-458.19" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-37" value="&lt;div&gt;Capability:&lt;/div&gt;Agents Threads" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="580" y="-470.00000000000006" width="120" height="40" as="geometry" />
+          <mxGeometry x="520" y="-550" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-38" value="&lt;div&gt;Capability:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Managed Finetuning&lt;/span&gt;&lt;/div&gt;&lt;div&gt;of GenAI Models or&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;AI Services&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="280" y="-457.5" width="170" height="35.81" as="geometry" />
+          <mxGeometry x="340" y="-490" width="120" height="58.31" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-39" value="&lt;div&gt;Capability:&lt;/div&gt;Finetuning via Code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="1020" y="-566.69" width="120" height="40" as="geometry" />
+          <mxGeometry x="1020" y="-576.69" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-40" value="&lt;div&gt;Capability:Evaluation of GenAI solutions&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="280" y="-536.69" width="120" height="51.5" as="geometry" />
+          <mxGeometry x="150" y="-486.6" width="120" height="51.5" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-41" value="&lt;div&gt;Capability:Content Safety&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="150" y="-536.69" width="120" height="50" as="geometry" />
+          <mxGeometry x="150" y="-546.69" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-42" value="&lt;div&gt;Capability:&lt;/div&gt;Playgrounds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="150" y="-603.19" width="120" height="40" as="geometry" />
+          <mxGeometry x="150" y="-613.19" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-53" value="&lt;div&gt;Capability:&lt;/div&gt;Model on managed compute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="820" y="-633.19" width="120" height="44" as="geometry" />
+          <mxGeometry x="820" y="-643.19" width="120" height="44" as="geometry" />
         </mxCell>
         <mxCell id="9MGzmyk-a4-prdXKLH5L-54" value="&lt;div&gt;Capability:&lt;/div&gt;Model via Serverless API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="150" y="-457.5" width="120" height="44" as="geometry" />
+          <mxGeometry x="340" y="-548.19" width="120" height="44" as="geometry" />
         </mxCell>
         <mxCell id="-a6cYmKUcZdv-mxSFMyN-1" value="&lt;div&gt;Capability: Agent Code interpreter&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="9MGzmyk-a4-prdXKLH5L-1" vertex="1">
-          <mxGeometry x="580" y="-531.69" width="120" height="53" as="geometry" />
+          <mxGeometry x="650" y="-494.5" width="120" height="53" as="geometry" />
         </mxCell>
+        <mxCell id="USfB7kwW75dsL95fJ-fc-4" value="&lt;div&gt;Capability: Red Teaming&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+          <mxGeometry x="650" y="-551.19" width="120" height="53" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;a href=&quot;https://learn.microsoft.com/en-gb/python/api/overview/azure/ai-ml-readme?view=azure-python&quot;&gt;Azure ML SDK v2&lt;/a&gt;" link="&lt;a href=&quot;https://learn.microsoft.com/en-gb/python/api/overview/azure/ai-ml-readme?view=azure-python&quot;&gt;Azure ML Package client library for Python | Microsoft Learn&lt;/a&gt;" id="UWtybroY7ziTjrSqkBUm-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="9MGzmyk-a4-prdXKLH5L-1">
+            <mxGeometry x="1120" y="-810" width="110" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="crX_s0WBM068zTE3V1iH" name="Deployment Options">
-    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="crX_s0WBM068zTE3V1iH" name="AOAI Deployment Options">
+    <mxGraphModel dx="1114" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Standard" parent="0" />
@@ -352,6 +359,126 @@
             <mxPoint x="250" y="450" as="targetPoint" />
             <Array as="points">
               <mxPoint x="305" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="AI Foundry Agent Service" id="uPguVMi1AGX9EJS-uyTt">
+    <mxGraphModel dx="2068" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-0" />
+        <mxCell id="T_FuxccSTAqYixzrRQTt-1" value="Standard" parent="T_FuxccSTAqYixzrRQTt-0" />
+        <mxCell id="T_FuxccSTAqYixzrRQTt-2" value="Azure Data Zone: e.g. EU" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="30" y="30" width="400" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-3" value="Azure Region: e.g. Germany West Central" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="60" y="50" width="350" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-4" value="Azure Availability Zone: e.g. 1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="70" y="80" width="330" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jqV2oITw5XyGvvE-k_CN-0" value="Product Azure AI Foundry" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="85" y="100" width="290" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-5" value="AOAI resource (customer manages)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="80" y="420" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;flowAnimation=0;exitX=0.427;exitY=0.943;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;exitPerimeter=0;strokeWidth=2;" parent="T_FuxccSTAqYixzrRQTt-1" source="T_FuxccSTAqYixzrRQTt-7" target="T_FuxccSTAqYixzrRQTt-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-7" value="AOAI model&lt;div&gt;&lt;b&gt;Standard &lt;/b&gt;deployment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="90" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-8" value="Azure Region: e.g. West US 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="460" y="400" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-9" value="GPU with Model Weights" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="110" y="630" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-10" value="GPU with Model Weights" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="490" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-11" value="Azure Region: e.g. Sweden Central" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="60" y="690" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-12" value="GPU with Model Weights" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="110" y="720" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-13" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 1;strokeWidth=2;rounded=0;endFill=1;" parent="T_FuxccSTAqYixzrRQTt-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="20.66" as="sourcePoint" />
+            <mxPoint x="225" y="20.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-14" value="Data can flow to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T_FuxccSTAqYixzrRQTt-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.4094" y="2" relative="1" as="geometry">
+            <mxPoint x="24" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-15" value="Legend:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="24" y="1" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lr48m0rVFKGmhZwNBv0M-0" value="&lt;div&gt;&lt;b&gt;AI Agent Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;AI Agent acts as a &quot;smart&quot; microservice that can be used to answer questions (RAG), perform actions, or completely automate workflows&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="115" y="120" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Lr48m0rVFKGmhZwNBv0M-1" value="&lt;div&gt;Capability:&lt;/div&gt;Agents Threads" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="195" y="259.99999999999994" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lr48m0rVFKGmhZwNBv0M-2" value="&lt;div&gt;Capability: Agent Code interpreter&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="T_FuxccSTAqYixzrRQTt-1" vertex="1">
+          <mxGeometry x="195" y="198.30999999999995" width="120" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-16" value="Global" parent="T_FuxccSTAqYixzrRQTt-0" />
+        <mxCell id="T_FuxccSTAqYixzrRQTt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;flowAnimation=0;dashed=1;dashPattern=1 1;strokeWidth=2;" parent="T_FuxccSTAqYixzrRQTt-16" source="T_FuxccSTAqYixzrRQTt-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="497" />
+              <mxPoint x="370" y="530" />
+              <mxPoint x="215" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-18" value="AOAI model&lt;div&gt;&lt;b&gt;Global &lt;/b&gt;deployment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-16" vertex="1">
+          <mxGeometry x="230" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;jumpStyle=arc;flowAnimation=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;strokeWidth=2;" parent="T_FuxccSTAqYixzrRQTt-16" source="T_FuxccSTAqYixzrRQTt-18" edge="1" target="T_FuxccSTAqYixzrRQTt-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="473" />
+              <mxPoint x="420" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;jumpStyle=arc;flowAnimation=0;dashed=1;dashPattern=1 1;strokeWidth=2;" parent="T_FuxccSTAqYixzrRQTt-16" source="T_FuxccSTAqYixzrRQTt-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="485" />
+              <mxPoint x="380" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-21" value="Data Zone" parent="T_FuxccSTAqYixzrRQTt-0" />
+        <mxCell id="T_FuxccSTAqYixzrRQTt-22" value="AOAI model&lt;div&gt;&lt;b&gt;Datazone &lt;/b&gt;deployment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="T_FuxccSTAqYixzrRQTt-21" vertex="1">
+          <mxGeometry x="240" y="540" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.95;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;flowAnimation=0;dashed=1;dashPattern=1 1;strokeWidth=2;" parent="T_FuxccSTAqYixzrRQTt-21" source="T_FuxccSTAqYixzrRQTt-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="243" y="632" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="273" y="600" />
+              <mxPoint x="243" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_FuxccSTAqYixzrRQTt-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;flowAnimation=0;dashed=1;dashPattern=1 1;strokeWidth=2;" parent="T_FuxccSTAqYixzrRQTt-21" source="T_FuxccSTAqYixzrRQTt-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="305" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
